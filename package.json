@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^10.9.0",
-    "vue": "^3.4.19"
+    "vue": "^3.4.15"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
+    "@vueuse/core": "^10.9.0",
     "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "@vitejs/plugin-vue": "^5.0.3",
     "typescript": "^5.2.2",
-    "vite": "^5.1.4",
+    "vite": "^5.1.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "postcss": "^8.4.35",
     "vue-tsc": "^1.8.27"
   }
 }

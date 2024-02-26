@@ -8,9 +8,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
-      typoGraphyPlugin
-  ],
-    darkMode: 'selector'
+  plugins: [typoGraphyPlugin],
+  darkMode: "class"
 }
 
