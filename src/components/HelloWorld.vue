@@ -9,7 +9,7 @@ const count = ref(0)
 <template>
   <h1>{{ msg }}</h1>
 
-  <div class="mt-10 dark:text-white">
+  <div class="mt-10">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
       Edit
@@ -23,7 +23,7 @@ const count = ref(0)
       >create-vue</a
     >, the official Vue + Vite starter
   </p>
-  <div class="shadow-lg p-5 rounded-lg bg-red-100 dark:bg-slate-800">
+  <div class="shadow-lg p-5 rounded-lg bg-red-100">
     <img src="/src/assets/images/oneline_novena.jpeg" class="rounded-md mb-6" />
     <h4 class="text-3xl font-bold">노베나</h4>
     <hr class="bg-gray-100 h-[2px] my-2" />
