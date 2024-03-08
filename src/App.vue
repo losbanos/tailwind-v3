@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import {useDark} from '@vueuse/core';
 import PricingTable from './components/PricingTable.vue';
+import Navbar from './components/Navbar.vue';
 const isDark = useDark();
 </script>
 
 <template>
   <div class="dark:bg-gray-900">
+    <Navbar />
     <label>
       <input type="checkbox" v-model="isDark" />
       <span class="dark:text-white">다크 모드</span>
